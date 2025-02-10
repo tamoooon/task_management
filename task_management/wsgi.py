@@ -23,6 +23,6 @@ from django.core.wsgi import get_wsgi_application
 # プロジェクトのルートディレクトリをパスに追加
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'task_management.task_management.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'task_management.settings')
 
 application = get_wsgi_application()
